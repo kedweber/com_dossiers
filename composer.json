@@ -1,0 +1,17 @@
+{
+    "name": "kubica/com_dossiers",
+    "type": "joomlatools-installer",
+    "description": "Dossiers Front & Back",
+    "keywords": ["joomla", "nooku", "categories"],
+    "homepage": "https://github.com/kedweber/com_dossiers",
+    "authors": [
+        {
+            "name": "Dave Li",
+            "email": "info@kubica.nl",
+            "homepage": "http://www.kubica.nl"
+        }
+    ],
+    "require": {
+        "joomlatools/installer": "*"
+    }
+}

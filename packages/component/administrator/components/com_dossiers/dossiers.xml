@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0.0" method="upgrade" overwrite="true">
+    <name>Dossiers</name>
+    <author>Kubica Webdevelopment</author>
+    <creationDate>July 2015</creationDate>
+    <copyright>Copyright (C) 2015 Kubica and Contributors. (http://www.kubica.nl)</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL v3</license>
+    <authorEmail>info@kubica.nl</authorEmail>
+    <authorUrl>www.kubica.nl</authorUrl>
+    <version>1.0.0</version>
+    <description>Dossiers</description>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">resources/install/install.sql</file>
+        </sql>
+    </install>
+
+    <administration>
+        <files folder="administrator/components/com_dossiers">
+            <file>dispatcher.php</file>
+            <file>dossiers.php</file>
+
+            <folder>controllers</folder>
+            <folder>resources</folder>
+            <folder>language</folder>
+            <folder>views</folder>
+        </files>
+
+        <menu>COM_DOSSIERS</menu>
+        <submenu>
+            <menu view="dossiers">DOSSIERS</menu>
+            <menu view="articles">ARTICLES</menu>
+            <menu view="topics">TOPICS</menu>
+        </submenu>
+    </administration>
+</extension>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0.0" method="upgrade" overwrite="true">
+    <name>Dossiers</name>
+    <author>Kubica Webdevelopment</author>
+    <creationDate>July 2015</creationDate>
+    <packagename>dossiers</packagename>
+    <copyright>Copyright (C) 2015 Kubica and Contributors. (http://www.kubica.nl)</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL v3</license>
+    <authorEmail>info@kubica.nl</authorEmail>
+    <authorUrl>www.kubica.nl</authorUrl>
+    <version>1.0.0</version>
+    <url>http://www.kubica.nl</url>
+    <packager>Kubica Webdevelopment</packager>
+    <packagerurl>http://www.kubica.nl</packagerurl>
+    <description>Dossiers</description>
+
+    <files folder="packages">
+        <file type="component" id="dossiers">component</file>
+    </files>
+
+</extension>
